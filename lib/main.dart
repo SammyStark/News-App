@@ -111,7 +111,11 @@ class _MyAppState extends State<MyApp> {
                               children: <Widget>[
                                 Padding(
                                   padding: EdgeInsets.fromLTRB(
-                                      20.0, 20.0, 10.0, 20.0),
+                                    20.0,
+                                    20.0,
+                                    10.0,
+                                    20.0,
+                                  ),
                                   child: Text(
                                     data[index]["title"],
                                     style: TextStyle(
